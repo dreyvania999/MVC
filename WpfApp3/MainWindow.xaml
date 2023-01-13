@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox Name="CBOperation" HorizontalAlignment="Left" Margin="232,57,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="SecondOperand" HorizontalAlignment="Left" Margin="353,111,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="FirstOperand" HorizontalAlignment="Left" Margin="145,111,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Name="ArifmeticOperation" Content="" HorizontalAlignment="Left" Margin="292,111,0,0" VerticalAlignment="Top" Height="18" Width="39"/>
+        <Button Name="CalculateResult" Content="Вычислить" HorizontalAlignment="Left" Margin="232,150,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
